@@ -2,35 +2,6 @@
 
 Este es un backend desarrollado con **NestJS** y **MongoDB**, diseñado para ser ejecutado dentro de un entorno **Docker**.
 
-## 🚀 **Características**
-- API REST con NestJS.
-- Base de datos **MongoDB** con conexión mediante Mongoose.
-- Contenedores orquestados con **Docker Compose**.
-- Configuración con variables de entorno.
-- Soporte para **pruebas automatizadas** con Jest.
-
----
-
-### 🐳 **Ejecutar con Docker**
-
-- Levantar los contenedores:
-docker-compose up --build -d
-
-- Verificar que los contenedores están corriendo:
-docker ps
-
-- Probar la API en el navegador:
-http://localhost:3000/api/docs#/
-
-- En caso de ejecutar los test
-docker exec -it PT_GLOBAL_THINK npm test
-
-
-
-# 🏰 Proyecto Global Test - Backend con NestJS y MongoDB
-
-Este es un backend desarrollado con **NestJS** y **MongoDB**, diseñado para ser ejecutado dentro de un entorno **Docker**.
-
 ---
 
 ## 🚀 **Características**
