@@ -28,10 +28,10 @@ docker-compose up --build -d
 ### 2️⃣ **Verificar que los contenedores están corriendo**
 ```bash
 docker ps
-
+```
 
 Puedes ver los endpoints disponibles en Swagger visitando:
-```
+```bash
 http://localhost:3000/api/docs
 ```
 
